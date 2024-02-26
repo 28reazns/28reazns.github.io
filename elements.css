@@ -36,22 +36,25 @@ body{
 .nav{
     grid-area: nav;
     padding: 0px;
-    ul{
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-        display: flex;
-        li{
-            float: left;
-            a{
-                display: block;
-                text-align: center;
-                padding-top: 7px;
-                min-width: 70px;
-                height: 20px;
-                text-decoration: none;
-            }
-        }
-    }
+}
+
+.nav > ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+}
+
+.nav > ul > li{
+    float: left;
+}
+
+.nav > ul > li > a{
+    display: block;
+    text-align: center;
+    padding-top: 7px;
+    min-width: 70px;
+    height: 20px;
+    text-decoration: none;
 }
