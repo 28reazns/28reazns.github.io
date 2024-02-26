@@ -19,7 +19,7 @@
 .webpage {
     display: grid;
     grid-template-columns:100%;
-    grid-template-rows: 100px 30px auto auto;
+    grid-template-rows: 200px 30px auto auto;
     box-sizing:border-box;
     grid-auto-flow:row;
     justify-content:stretch;
