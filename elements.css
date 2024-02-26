@@ -33,3 +33,25 @@ body{
     position: relative;
     margin: 0px auto 0px auto
 }
+.nav{
+    grid-area: nav;
+    padding: 0px;
+    ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        display: flex;
+        li{
+            float: left;
+            a{
+                display: block;
+                text-align: center;
+                padding-top: 7px;
+                min-width: 70px;
+                height: 20px;
+                text-decoration: none;
+            }
+        }
+    }
+}
