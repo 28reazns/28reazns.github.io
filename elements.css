@@ -15,6 +15,7 @@
 .site-box > a > span {
     color: var(--darkbrown);
 }
+
 .webpage {
     display: grid;
     grid-template-columns:100%;
@@ -26,4 +27,9 @@
     align-items:stretch;
     grid-template-areas:"header" "nav" "main" "footer";
     width: 1000px;
+}
+body{
+    width: 1000px;
+    position: relative;
+    margin: 0px auto 0px auto
 }
