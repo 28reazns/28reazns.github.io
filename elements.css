@@ -60,7 +60,7 @@ body{
     width: fit-content;
     position: relative;
     margin: 0px auto 0px auto;
-    background-image: var(--bg-col)
+    background-image: var(--bg_col)
 }
 .nav{
     grid-area: nav;
